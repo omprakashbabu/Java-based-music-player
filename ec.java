@@ -1,5 +1,5 @@
 import java.sql.*;
-public class EstablishConnection {
+public class EstablishConnection{
 public static Connection connect(){
 //Setting the credentials
 String url = "jdbc:mysql://localhost:3306/music_player";
